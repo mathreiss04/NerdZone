@@ -1,0 +1,183 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+html, body {
+	background-color: #1D2F45;
+}
+a {
+	font-size: 13px;
+	font-family: Copperplate Gothic Bold;
+	color:#fff;
+	text-decoration:none;
+}
+#container {
+	width:950px;
+	padding:0px;
+	margin:0px auto;
+}
+#header {
+	margin-top: 20px;
+	box-shadow: 0 5px 50px #00B0F0;
+	text-align: center;
+	background-color: black;
+}
+
+#menu{
+    background-color: #1D2F45;
+	display: block;
+    padding: 0px;
+    font-size: 0;
+	width: 950px;
+	max-width: 950px;
+}
+#menu> li{
+   background-color: black;
+   color: #00B0F0;
+   display: inline-block;
+   width: center;
+}
+#menu a{
+   text-align: center;
+   color: inherit;
+   font-family: Magneto;
+   font-size: 24px;
+   display: block;
+   text-decoration: none;
+   list-style: none;
+   padding: 0px 67px;
+   border:1px solid #00B0F0;
+}
+
+#menu li:hover{
+   background-color: #fff;
+}
+
+#conteudo {
+	box-shadow: 0 5px 50px #00B0F0;
+	width:950px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background-color:#000;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	color: #fff;
+	font-family: Copperplate Gothic Bold;
+}
+
+#clear {
+	clear:both;
+}font:15px "trebuchet MS", Arial, Helvetica, sans-serif;
+
+#Noticias{
+   font-family: Copperplate Gothic Bold;
+   font-size: 14px;
+   text-align: center;
+   display: inline;
+}
+#Noticias> a{
+   color: #fff;
+   text-decoration: none;
+   display: block;
+   background-color: black;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border-bottom: 1px solid #fff;
+}
+
+#gamezone{
+	text-align: center;
+	font-family: Copperplate Gothic Bold;
+	font-size: 20px;
+	color: white;
+	margin-bottom: 10px; 
+}
+
+#poster{
+   text-align: center;
+   width: 900px;
+   max-width: 950px;
+   padding: 10px;
+}
+#poster> a{
+   text-decoration: none;
+   list-style: none;
+   text-align: center;
+   padding: 10px;
+   color: #fff;
+}
+
+#video{
+   border-top: 4px solid white;
+   border-bottom: 4px solid white;
+   display: inline-block;
+}
+#video> video{
+   display: inline;
+   width: 900px;
+   height: 520px;
+}
+
+#titulo{
+   color: #fff;
+   text-align: center;
+   font-size: 26px;
+   border-bottom: 1px solid white;
+   margin: 0px 0px 5px 0px
+}
+
+#descricao{
+   color: white;
+   margin: 5px 5px 0px 5px;
+   border-top: 1px solid white;
+}
+
+#materia{
+	display: inline-flex;
+}
+
+#texto{
+	font-family: Copperplate Gothic Bold;
+	color: white;
+	display: block;
+	margin: 10px 0px 40px 20px;
+	text-align: left;
+	width: 500px;
+}
+
+#creditos{
+   display: inline-block;
+   margin-top: 10px;
+}
+
+#Idioma> ul{
+   display: block;
+   margin-top: 10px;
+   list-style: none;
+   text-align: left;
+}
+#Idioma> li{
+   display: inline;
+   text-align: center;
+   list-style: none;
+   text-decoration: none;
+}
+#Idioma> a{
+   text-align: center;
+   display: inline;
+   text-decoration: none;
+   list-style: none;
+}
+
+#imagem{
+   display: block;
+   margin: 10px 0px 30px 20px;
+   text-align: left;
+   border: 1px solid white;
+   width: 300px;
+   height: 350px;
+   max-height: 350px;
+   max-width: 300px
+}
